@@ -1,5 +1,4 @@
-dockerfile
-FROM teddysun/xray
-COPY config.json /etc/xray/config.json
+FROM xtls/xray:latest
+COPY config.json /user/local/etc/xray/config.json
 EXPOSE 80
-ENTRYPOINT ["xray", "-config", "/etc/xray/config.json"]
+ENTRYPOINT ["xray", "-config", "/user/local/etc/xray/config.json"]
