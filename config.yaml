@@ -1,0 +1,5 @@
+listen: :8080
+auth: "c3845439-f33d-4dd4-8189-d91d22534d41"
+tls:
+cert: /etc/hysteria/server.crt
+key: /etc/hysteria/server.key
