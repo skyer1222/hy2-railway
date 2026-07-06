@@ -1,0 +1,22 @@
+{
+"inbounds": [{
+"port": 80,
+"protocol": "vless",
+"settings": {
+"clients": [{ "id": "b831381d-6324-4d53-ad4f-8cda48b30811", "flow": "xtls-reality-vision" }],
+"decryption": "none"
+},
+"streamSettings": {
+"network": "tcp",
+"security": "reality",
+"realitySettings": {
+"show": false,
+"dest": "www.bing.com:443",
+"serverNames": ["www.bing.com"],
+"privateKey": "g1r2XG5X_y6h9YnBq614g6tYlY4_17-K-Jb-x8qKj3E",
+"shortIds": ["0123456789abcdef"]
+}
+}
+}],
+"outbounds": [{ "protocol": "freedom" }]
+}
